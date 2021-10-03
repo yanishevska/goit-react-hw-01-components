@@ -1,0 +1,32 @@
+[
+  {
+    "avatar": "https://rlab.me/wp-content/uploads/2017/09/sozdat-avatar-dlya-youtube-sharg.png",
+    "name": "Mango",
+    "isOnline": true,
+    "id": 1812
+  },
+  {
+    "avatar": "https://shapka-youtube.ru/wp-content/uploads/2021/01/girls-ava6.jpg",
+    "name": "Kiwi",
+    "isOnline": false,
+    "id": 1137
+  },
+  {
+    "avatar": "https://whatsism.com/uploads/posts/2018-07/1530544023_n6fgwzftnvg.jpg",
+    "name": "Ajax",
+    "isOnline": true,
+    "id": 1213
+  },
+  {
+    "avatar": "https://i.pinimg.com/236x/fc/87/49/fc8749717dfd5709847a22907e41f5cf--man-illustration-illustrations.jpg",
+    "name": "Jay",
+    "isOnline": true,
+    "id": 1714
+  },
+  {
+    "avatar": "https://i.pinimg.com/736x/2c/69/9d/2c699dff98ff95a510e27297da2c59ea.jpg",
+    "name": "Poly",
+    "isOnline": false,
+    "id": 1284
+  }
+]

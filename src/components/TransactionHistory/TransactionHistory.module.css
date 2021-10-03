@@ -1,0 +1,39 @@
+@import "../../styles/variables.module.css";
+
+.transactionHistory {
+  width: 500px;
+  margin: 25px 0;
+  border-collapse: collapse;
+  box-shadow: var(--main-shadow);
+}
+
+.tableTitles {
+  height: 50px;
+}
+
+.title {
+  color: var(--white-color);
+  font-weight: var(--main-weight);
+  font-size: 24px;
+  text-transform: uppercase;
+  background-color: var(--transaction-bg);
+}
+
+.tableItem {
+  height: 40px;
+  border-bottom: 1px solid var(--transaction-border);
+}
+
+.tableItem:nth-of-type(even) {
+  background-color: var(--transaction-bg-item);
+}
+
+.tableItem:last-of-type {
+  border-bottom: 2px solid var(--transaction-bg);
+}
+
+.td {
+  font-size: 16px;
+  font-weight: var(--main-weight);
+  text-transform: capitalize;
+}

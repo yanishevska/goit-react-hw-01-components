@@ -1,0 +1,68 @@
+@import "../../styles/variables.module.css";
+
+.name {
+  font-size: 36px;
+  font-weight: var(--main-weight);
+  margin-bottom: 0;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+  border-radius: 50%;
+  box-shadow: var(--main-shadow);
+}
+
+* {
+  list-style: none;
+}
+
+.profile {
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: var(--main-shadow);
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.statsItem {
+  width: 163px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-profile);
+}
+
+.tag {
+  color: var(--label-profile);
+  margin-bottom: 0;
+}
+
+.location {
+  margin-top: 0;
+  padding-top: 5px;
+  font-size: 18px;
+  font-weight: var(--main-weight);
+  color: var(--label-profile);
+}
+
+.quantity {
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.label {
+  font-size: 24px;
+  font-weight: 600px;
+  color: var(--label-profile-tx);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,45 @@
+@import "../../styles/variables.module.css";
+
+.friendList {
+  margin-bottom: 50px;
+  padding: 5px;
+  box-shadow: var(--main-shadow);
+}
+.status {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 25px;
+}
+.online {
+  composes: status;
+  background-color: green;
+}
+
+.offline {
+  composes: status;
+  background-color: red;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border-radius: 6px;
+  box-shadow: var(--main-shadow);
+}
+
+.avatar {
+  height: 170px;
+  border-radius: 28%;
+  margin-right: 50px;
+  margin: 5px 50px 5px 0px;
+  box-shadow: var(--main-shadow);
+}
+
+.name {
+  font-weight: var(--main-weight);
+  font-size: 30px;
+}
